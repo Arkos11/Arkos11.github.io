@@ -1,15 +1,15 @@
 # site settings
 title: Arkos
-subtitle: OJ
+subtitle: 
 email: priyangshu@cmi.ac.in
-description: It was me Up<br /> and released under the Creative Commons.
+description: Whats responsible for the rise of male virginity?<br /> 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://Arkos11.github.io" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
 state: TN
-zip_code: 55555
+zip_code: 700135
 country: Halaand
 phone: (716) 555-5555
 
