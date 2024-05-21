@@ -1,6 +1,6 @@
 # site settings
 title: Arkos
-subtitle: by HTML5 UP
+subtitle: OJ
 email: priyangshu@cmi.ac.in
 description: It was me Up<br /> and released under the Creative Commons.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
@@ -10,7 +10,7 @@ street_address: 1234 Somewhere Road
 city: Nashville
 state: TN
 zip_code: 55555
-country: United States of America
+country: Halaand
 phone: (716) 555-5555
 
 # homepage tiles
