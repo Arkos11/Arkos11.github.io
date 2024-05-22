@@ -79,7 +79,7 @@ nav-menu: true
 		</header>
 		<p>To know why, click down below</p>
 		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
+			<li><a href="generic.html" class="button next">Could it be</a></li>
 		</ul>
 	</div>
 </section>

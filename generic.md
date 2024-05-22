@@ -2,7 +2,7 @@
 layout: post
 title: Misato kissing Shinji
 description: Reddit explains why
-image: assets/images/pic11.jpg
+image: assets/images/misato.jpeg
 nav-menu: true
 ---
 
