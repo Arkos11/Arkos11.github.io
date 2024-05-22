@@ -5,11 +5,11 @@ email: priyangshu@cmi.ac.in
 description: What could be responsible for the rise of male virginity? 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://Arkos11.github.io" # the base hostname & protocol for your site
-author:Arkos
-street_address: Rajarhat
-city: Kolkata
-state: TN
-zip_code: 700135
+author: Arkos
+street_address: 
+city: 
+state: 
+zip_code: 
 country: Halaand
 phone: (+91) 7439376632
 
@@ -22,13 +22,13 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/Arkos11.github.io
+  GitHub: https://github.com/Arkos11
   GitLab:
-  Google-Plus: nah nobody uses g+ anymore
-  Instagram:cringe
-  LinkedIn: no
-  Twitter: https://twitter.com/lp6taloscharis
-  Facebook: old
+  Google-Plus: 
+  Instagram: 
+  LinkedIn: 
+  Twitter: https://x.com/LP6TALOSCHARIS
+  Facebook: 
   Slack:
 
 # build settings
