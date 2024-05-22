@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Retirement of Kasparov?
 image: assets/images/pic01.jpg
 nav-menu: true
 ---

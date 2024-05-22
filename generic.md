@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: Misato kissing Shinji
+description: Reddit explains why
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

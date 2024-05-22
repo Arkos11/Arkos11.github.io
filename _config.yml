@@ -2,12 +2,16 @@
 title: Arkos
 subtitle: QOTY
 email: priyangshu@cmi.ac.in
-description: What could be responsible for the rise of male virginity?<br Is it dating apps/> 
+description: What could be responsible for the rise of male virginity? 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://Arkos11.github.io" # the base hostname & protocol for your site
-
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 700135
 country: Halaand
-phone: (+91) 74393-76632
+phone: (716) 555-5555
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -18,10 +22,12 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/Arkos11
+  GitHub: https://github.com/andrewbanchich
   GitLab:
+  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
   Instagram:
-  Twitter: https://twitter.com/lp6taloscharis
+  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  Twitter: https://twitter.com/andrewbanchich
   Facebook:
   Slack:
 
