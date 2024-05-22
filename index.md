@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: I have a question, as serious as cancer
 description: null
 image: null
 author: null
