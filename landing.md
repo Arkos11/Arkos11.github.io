@@ -2,7 +2,7 @@
 title: Surge of cat theory amongst youngsters?
 layout: landing
 description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/cattheory.jpeg
+image: assets/images/cattheory.PNG
 nav-menu: true
 ---
 
