@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>My Site</title>
+    <subtitle>A simple Zola starter site.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://example.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://example.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-10T00:00:00+00:00</updated>
+    <id>https://example.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>First Post</title>
+        <published>2026-03-10T00:00:00+00:00</published>
+        <updated>2026-03-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://example.com/blog/first-post/"/>
+        <id>https://example.com/blog/first-post/</id>
+        
+        <content type="html" xml:base="https://example.com/blog/first-post/">&lt;p&gt;Welcome to your Zola site.&lt;&#x2F;p&gt;
+&lt;p&gt;This starter gives you:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A homepage&lt;&#x2F;li&gt;
+&lt;li&gt;A blog section&lt;&#x2F;li&gt;
+&lt;li&gt;Shared templates&lt;&#x2F;li&gt;
+&lt;li&gt;Basic Sass styling&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Edit content in &lt;code&gt;content&#x2F;&lt;&#x2F;code&gt; and templates in &lt;code&gt;templates&#x2F;&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

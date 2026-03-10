@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ lang | default(value=config.default_language) }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+    <link rel="stylesheet" href="{{ get_url(path='main.css') }}">
+    {% if config.generate_feeds and config.extra.show_feed_link %}
+    <link rel="alternate" type="application/atom+xml" title="{{ config.title }} Atom Feed" href="{{ get_url(path='atom.xml', trailing_slash=false) }}">
+    {% endif %}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href="{{ config.base_url }}">{{ config.title }}</a>
+        {% if config.extra.subtitle %}
+        <p class="site-subtitle">{{ config.extra.subtitle }}</p>
+        {% endif %}
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ get_url(path='@/_index.md') }}">Home</a>
+          <a href="{{ get_url(path='@/about.md') }}">About</a>
+          <a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      {% block content %}{% endblock content %}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; {{ now() | date(format="%Y") }} {{ config.extra.author | default(value=config.title) }}</p>
+      </div>
+    </footer>
+  </body>
+</html>
