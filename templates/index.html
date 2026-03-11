@@ -5,9 +5,35 @@
 
 {% block content %}
 <section class="hero">
-  <p class="eyebrow">Zola Starter</p>
+  <p class="eyebrow">Personal Site</p>
   <h1>{{ config.title }}</h1>
   <p class="lead">{{ config.description }}</p>
+</section>
+
+<section class="panel">
+  <h2>Explore</h2>
+  <div class="card-grid">
+    <a class="card-link" href="{{ get_url(path='@/blog/_index.md') }}">
+      <strong>Blog</strong>
+      <span>Writing, updates, and longer-form posts.</span>
+    </a>
+    <a class="card-link" href="{{ get_url(path='@/hobbies/_index.md') }}">
+      <strong>Hobbies</strong>
+      <span>Projects, interests, and things you do outside work.</span>
+    </a>
+    <a class="card-link" href="{{ get_url(path='@/notes/_index.md') }}">
+      <strong>Notes</strong>
+      <span>Organized subject folders for math, CS, economics, and more.</span>
+    </a>
+    <a class="card-link" href="{{ get_url(path='@/links.md') }}">
+      <strong>Links</strong>
+      <span>A curated page of references, tools, and people worth revisiting.</span>
+    </a>
+    <a class="card-link" href="{{ get_url(path='@/contact.md') }}">
+      <strong>Contact</strong>
+      <span>How people can reach you.</span>
+    </a>
+  </div>
 </section>
 
 <section class="panel">

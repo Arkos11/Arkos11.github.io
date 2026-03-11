@@ -1,6 +1,6 @@
 base_url = "https://arkos11.github.io"
 title = "My Site"
-description = "A simple Zola starter site."
+description = "Writing, notes, links, and projects."
 default_language = "en"
 compile_sass = true
 build_search_index = true
@@ -20,5 +20,5 @@ anchors = "on"
 
 [extra]
 author = "Arkos"
-subtitle = "Simple Zola starter"
+subtitle = "Writing, notes, and projects"
 show_feed_link = true

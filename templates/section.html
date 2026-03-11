@@ -12,6 +12,18 @@
     {% endif %}
   </header>
 
+  {% if section.subsections %}
+  <section class="subsection-grid">
+    {% for subsection_path in section.subsections %}
+    {% set subsection = get_section(path=subsection_path) %}
+    <a class="card-link" href="{{ subsection.permalink }}">
+      <strong>{{ subsection.title }}</strong>
+      <span>{{ subsection.description | default(value="Open this subject area.") }}</span>
+    </a>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   {% if section.pages %}
   <ul class="post-list">
     {% for page in section.pages %}

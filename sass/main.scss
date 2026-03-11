@@ -104,6 +104,42 @@ time {
   margin: 1.5rem 0 0;
 }
 
+.card-grid,
+.subsection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card-link {
+  display: block;
+  padding: 1.1rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
+}
+
+.card-link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(182, 87, 42, 0.3);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--text);
+}
+
+.card-link strong,
+.card-link span {
+  display: block;
+}
+
+.card-link span {
+  margin-top: 0.35rem;
+  color: var(--muted);
+}
+
 .post-list li + li {
   border-top: 1px solid var(--border);
   padding-top: 1.25rem;
