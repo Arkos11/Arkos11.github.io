@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+    <link rel="icon" href="{{ get_url(path='favicon.ico') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ get_url(path='main.css') }}">
     {% if config.generate_feeds and config.extra.show_feed_link %}
     <link rel="alternate" type="application/atom+xml" title="{{ config.title }} Atom Feed" href="{{ get_url(path='atom.xml', trailing_slash=false) }}">
