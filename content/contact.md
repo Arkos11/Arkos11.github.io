@@ -4,9 +4,7 @@ description = "How to get in touch."
 template = "page.html"
 +++
 
-Add your preferred contact details here.
+Reach out through the channels below.
 
-- Email:
-- GitHub:
-- X / Mastodon:
-- Other:
+- Email: `hello@example.com`
+- Discord: `arkos_dev#0420`
